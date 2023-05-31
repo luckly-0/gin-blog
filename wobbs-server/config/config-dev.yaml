@@ -22,10 +22,10 @@ log:
   max_backups: 7
 mysql:
   host: localhost
-  port: 3308
+  port: 3306
   username: root
-  password: root
-  database: "wobbs"
+  password: 123456
+  database: "lll"
   max_open_conns: 200
   max_idle_conns: 50
 redis:
